@@ -1,0 +1,22 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "For practicing Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcmd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwang840/TypeScript-Practice.git"
+  },
+  "keywords": [
+    "proj"
+  ],
+  "author": "mwang840",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwang840/TypeScript-Practice/issues"
+  },
+  "homepage": "https://github.com/mwang840/TypeScript-Practice#readme"
+}
