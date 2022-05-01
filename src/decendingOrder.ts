@@ -1,5 +1,5 @@
 export function descendingOrder(n: number): number {
-    let descending = String(n);
+    let descending = n.toString();
     let popular = [];
     //Turns the numbers to an string then put each digit out to an array
     for(let i = 0; i < descending.length; ++i){
