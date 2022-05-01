@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mwang840/TypeScript-Practice/issues"
   },
-  "homepage": "https://github.com/mwang840/TypeScript-Practice#readme"
+  "homepage": "https://github.com/mwang840/TypeScript-Practice#readme",
+  "dependencies": {
+    "node-modules": "^0.0.1"
+  }
 }
