@@ -1,2 +1,2 @@
 # TypeScript-Practice
-Practicing TypeScript cause why not!
+Doing some practice problems in Typescript to further strengthen my skills in the typescript/javascript language.
