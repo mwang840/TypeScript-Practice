@@ -1,22 +1,19 @@
 export function solution(roman: string): number {
     let romanNum = 0,
-        index = 0;
-    while (index <= roman.length) {
-        if (roman[index] === "I") {
-            romanNum += 1;
-        } else if (roman[index] === "V") {
-            romanNum += 5;
-        } else if (roman[index] === "X") {
-            romanNum += 10;
-        } else if (roman[index] === "L") {
-            romanNum += 50;
-        } else if (roman[index] === "C") {
-            romanNum += 100;
-        } else if (roman[index] === "D") {
-            romanNum += 500;
-        }
-
-        index++;
+        index = 0,
+        currentValue,
+        current,
+        next,
+        nextValue;
+    let toArray = roman.split("");
+    //Map of the roman codes
+    const romanMap = { M: 1000, D: 500 };
+    //Sets up exceptions
+    const exceptions = { CD: 400, CM: 900, XC: 90, XL: 40, IV: 4, IX: 9 };
+    for (index; index < toArray.length; index++) {
+        current = toArray[index];
+        currentValue = romanMap[current];
+        next = toArray[index + 1];
     }
     return romanNum;
 }
