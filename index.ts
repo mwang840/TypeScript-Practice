@@ -1,5 +1,5 @@
-import { spinWords } from "./spinWords";
-import { descendingOrder } from "./descendingOrder";
+import { spinWords } from "./src/spinWords";
+import { descendingOrder } from "./src/descendingOrder";
 function main() {
     const fat = spinWords("Nikocado Avocado");
     console.log(fat);
