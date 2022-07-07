@@ -21,7 +21,7 @@
     },
     "homepage": "https://github.com/mwang840/TypeScript-Practice#readme",
     "dependencies": {
-        "node-modules": "^0.1.0",
+        "node-modules": "^1.0.0",
         "nodemon": "^2.0.19"
     },
     "devDependencies": {
